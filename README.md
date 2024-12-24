@@ -174,3 +174,10 @@ INSERT 0 4
 
 PostgreSQL init process complete; ready for start up.
 ```
+
+
+#### git clone and build
+```
+git clone https://github.com/thanoojgithub/SpringBootDataREST2.git
+gradle clean build --no-build-cache
+```
