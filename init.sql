@@ -35,4 +35,4 @@ VALUES
     ('Bob Johnson', 'bob.johnson@example.com', 3);
 
 -- SELECT
-SELECT customerid, customername, email, c.branchid FROM public.customer c join public.branch b on c.branchid=b.branchid;
+SELECT customerid, customername, email, c.branchid FROM customer c join branch b on c.branchid=b.branchid;
