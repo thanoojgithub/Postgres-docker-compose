@@ -21,6 +21,7 @@ RUN apt update && apt install -y \
     htop \
     tmux \
     net-tools \
+    make \
     jq \
     fzf \
     tree \
